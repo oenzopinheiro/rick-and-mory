@@ -8,4 +8,4 @@
 
 [] - Dado um array de string ['yan', 'cesar', 'lindão'] retornar os tamanhos das strings (map)
 
-[] - Dado um array de string ['yan', 'cesar', 'lindão'] retorna uma string que contem o nome com 4 caracteres (find)
+[] - Dado um array de string ['yan', 'cesar', 'lindão'] retorna uma string que contem o nome com 5 caracteres (find)
