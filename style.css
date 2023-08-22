@@ -1,0 +1,25 @@
+/* styles.css */
+.like-button {
+    display: flex;
+    align-items: center;
+  }
+  
+  #like-btn {
+    width: 40px;
+    height: 40px;
+    background-color: ;
+    border: none;
+    background-image: url('/Assets/heart-regular.svg'); /* Ícone de coração vazio */
+    background-size: cover;
+    cursor: pointer;
+  }
+  
+  #like-btn.liked {
+    background-image: url('/Assets/heart-solid.svg'); /* Ícone de coração cheio */
+  }
+  
+  #like-count {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
