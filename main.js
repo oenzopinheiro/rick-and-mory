@@ -35,7 +35,8 @@ async function getSingleCharacter(id) {
     .then((response) => {
       rickTexts.innerHTML = `
       <img src="/Assets/Vector.png" class="vector">
-      <a href="http://localhost:5500/" class="back" id="back">Voltar</a>`
+      <a href="/" class="back" id="back">Voltar</a>`
+
 
       rickElement.innerHTML = `
         <div class="box boxTwo">
