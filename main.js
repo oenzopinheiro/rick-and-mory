@@ -37,6 +37,7 @@ async function getSingleCharacter(id) {
       <img src="/Assets/Vector.png" class="vector">
       <a href="/" class="back" id="back">Voltar</a>`
 
+
       rickElement.innerHTML = `
         <div class="box boxTwo">
         <div class="imgContainer">
