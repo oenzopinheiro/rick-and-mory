@@ -6,28 +6,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<div class="all">
-<header>
-    <img src="/Assets/2 1.svg" class="img1">
-    <img src="/Assets/SESSÃO 01.svg">
-    <img src="/Assets/01 1.svg" class="img2">
-    
-</header>
 
-<div class="texts">
-    <a href="http://localhost:5500/">Todos</a>
-    <a href="">Curtidos</a>
-</div>
 
 <body>
+    <img src="/Assets/Logo.png" class="logo">
+   <div class="banner">
+        <img src="/Assets/2 1.svg" class="img1"> 
+        <img src="/Assets/BANNER.png" class="imgCenter">
+        <img src="/Assets/01 1.svg" class="img2">
 
+</div>
+
+    
+<div class="texts">
+    <a href="http://localhost:5500/" id="all" class="selected">Todos</a>
+    <a href="#curtidos" onclick="showLikedCharacters()" id="likeds" >Curtidos</a>
+</div>
     
     <div class="rickAndMoryApi"></div>
 
+
     <script src="/main.js"></script>
 </body>
-</div>
 </html>
 
