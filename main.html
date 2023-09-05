@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Like</title>
-    <link rel="stylesheet" href="/style.css">
-</head>
-<body>
-    <div class="like-button">
-        <button id="like-btn" class="unliked"></button>
-        <span id="like-count">0</span>
-      </div>
-      <script>
-        // script.js
-const likeButton = document.getElementById('like-btn');
-const likeCount = document.getElementById('like-count');
-
-let liked = false;
-let likeCountValue = 0;
-
-likeButton.addEventListener('click', () => {
-  if (!liked) {
-    likeButton.classList.add('liked');
-    likeCountValue++;
-  } else {
-    likeButton.classList.remove('liked');
-    likeCountValue--;
-  }
-
-  liked = !liked;
-  likeCount.textContent = likeCountValue;
-});
-
-      </script>
-</body>
-</html>
+overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
